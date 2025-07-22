@@ -4,3 +4,4 @@ dataset/train/
 dataset/valid/
 dataset/test/
 weights/
+.venv/

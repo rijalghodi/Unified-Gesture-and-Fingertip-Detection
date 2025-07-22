@@ -10,7 +10,7 @@ hand = YOLO(weights='weights/yolo.h5', threshold=0.8)
 fingertips = Fingertips(weights='weights/fingertip.h5')
 
 # Read the input image.
-image = cv2.imread('data/sample.jpg')
+image = cv2.imread('data/jari.jpg')
 
 # Detect the hand in the image.
 # tl: top-left corner (x, y) of the detected hand bounding box
